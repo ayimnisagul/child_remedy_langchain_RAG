@@ -1,0 +1,130 @@
+# =========================================
+# 🧠 LangChain / LLM Project Git Ignore
+# =========================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+develop-eggs/
+dist/
+pip-wheel-metadata/
+.wheelhouse/
+MANIFEST
+.DS_Store
+
+# --- Virtual Environments ---
+env/
+venv/
+.venv/
+ENV/
+env_mlops/
+mlops_env/
+env*/
+
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# --- Jupyter & Notebooks ---
+.ipynb_checkpoints/
+*.ipynb_out
+*.ipynb_meta
+
+# --- Logs & Temp ---
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.out
+*.err
+
+# --- Credentials & API Keys ---
+.env
+.env.*
+*.key
+*.json
+*.yaml
+openai_api_key.txt
+secrets/
+config/private/
+
+# --- LangChain / FAISS / Vector DB ---
+faiss_indices/
+chroma/
+chroma_data/
+index_store/
+vectorstore/
+db.sqlite3
+manifest_*.json
+kb_docs/
+cache/
+data_cache/
+*.faiss
+*.pkl
+*.pickle
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+.streamlit/config.toml
+.streamlit/state/
+.streamlit/cache/
+.streamlit/static/temp/
+.streamlit/uploads/
+
+# --- OS & Misc ---
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.tmp
+*.lock
+*.orig
+*.rej
+
+# --- Project-specific artifacts ---
+__pycache__/
+home_remedy_system.py~
+improved_food_remedy_tools.py~
+test_outputs/
+scratch/
+*.bak
+*.checkpoint
+
+# --- Pytest / Coverage ---
+.cache/
+.coverage
+coverage.xml
+htmlcov/
+pytest_cache/
+
+# --- VSCode Launch/Debug ---
+.vscode/launch.json
+.vscode/settings.json
+.vscode/tasks.json
+
+# --- Pypandoc, Reportlab temp files ---
+*.pdf
+*.docx
+*.rtf
+*.md
+
+# --- Temporary downloads or raw data ---
+downloads/
+raw_data/
+temp/
+tmp/
+
